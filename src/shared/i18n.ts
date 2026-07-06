@@ -2,7 +2,7 @@ export type Locale = "zh-CN" | "en-US";
 export type I18nParams = Record<string, string | number | null | undefined>;
 
 const zh = {
-  "app.name": "HashPay",
+  "app.name": "Lietio",
   "common.add": "新增",
   "common.admin": "管理员",
   "common.all": "全部",
@@ -505,7 +505,7 @@ const zh = {
 } as const;
 
 const en: Record<keyof typeof zh, string> = {
-  "app.name": "HashPay",
+  "app.name": "Lietio",
   "common.add": "Add",
   "common.admin": "Admin",
   "common.all": "All",
